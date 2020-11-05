@@ -1,0 +1,41 @@
+/* animation */
+
+.scrolled {
+    .progress-bar {
+        @for $x from 1 through 7 {
+            @keyframes width-#{$x} {
+                from {
+                    width: 0;
+                }
+
+                to {
+                    @if $x == 1 {
+                        width: 70%;
+                    }
+                    @if $x == 2 {
+                        width: 75%;
+                    }
+                    @if $x == 3 {
+                        width: 60%;
+                    }
+                    @if $x == 4 {
+                        width: 80%;
+                    }
+                    @if $x == 5 {
+                        width: 85%;
+                    }
+                    @if $x == 6 {
+                        width: 50%;
+                    }
+                    @if $x == 7 {
+                        width: 85%;
+                   }
+                }
+            }
+
+            &.bar#{$x} {
+                animation: width-#{$x} 3s linear forwards;
+            }
+        }
+    }
+}
