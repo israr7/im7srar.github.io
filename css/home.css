@@ -553,7 +553,7 @@ nav#navbar.navbar { /* 500px heigh for navbar menu in mobile*/ /* 0 to 600px */ 
 /////////////////////////////////////////////    about    \\\\\\\\\\\\\\\\\\\\\
 ==================================================================================================*/
 @media (max-width: 768px) { #portfolio .row.gallery .img { height: calc(25vw); } }
-@media (max-width: 600px) { #portfolio .row.gallery .img { height: calc(40vw); } }
+@media (max-width: 600px) { #portfolio .row.gallery .img { height: calc(85vw); } }
 @media (max-width: 400px) { #portfolio .row.gallery .img { height: calc(50vw); } }
 
 /*==================================================================================================
