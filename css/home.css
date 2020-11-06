@@ -126,7 +126,7 @@ Version: 1.0
 /* navbar */
 /* ============================== frameWork */
 :root { --smallPixel:$mediumPixel; }
-.body{
+body{
   overflow-x: hidden;
 }
 
